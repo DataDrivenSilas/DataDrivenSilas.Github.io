@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Silas | Data Analyst Portfolio</title>
+  <title>Silas Ude | Multi-Disciplinary Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,6 +11,7 @@
       padding: 0;
       background: #f4f4f4;
       color: #333;
+      line-height: 1.6;
     }
     header {
       background: #0a192f;
@@ -20,10 +21,16 @@
     }
     header h1 {
       margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.1rem;
+      color: #64ffda;
     }
     .container {
       padding: 2rem;
-      max-width: 1000px;
+      max-width: 1100px;
       margin: auto;
     }
     .section {
@@ -87,30 +94,87 @@
       list-style-type: disc;
       padding-left: 1.5rem;
     }
+    .experience-item {
+      margin-bottom: 1.5rem;
+    }
+    .experience-title {
+      color: #0a192f;
+      font-weight: bold;
+    }
+    .experience-company {
+      color: #007acc;
+      font-style: italic;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Silas | Data Analyst</h1>
-    <p>SQL | Tableau | Excel | Python | Real Estate & BI Focus</p>
+    <h1>Silas Ude — Instrumentation Technician | Realtor & Property Manager | Data Analyst</h1>
+    <p>Engineering • Real Estate • Data Analytics</p>
   </header>
   <div class="container">
 
     <div class="section">
       <h2>About Me</h2>
-      <p>I’m a Data Analyst passionate about transforming raw data into actionable business insights. With experience in real estate, logistics, and engineering, I specialize in building SQL queries, dashboards in Tableau, and performing data cleaning and analysis with Python and Excel.</p>
+      <p>I’m a versatile professional bridging engineering, real estate, and data analytics. As an Instrumentation Technician, I’ve worked on large-scale oil & gas projects, handling installations, calibrations, and troubleshooting of field instruments. As a Realtor and Property Manager, I’ve managed residential and commercial properties, conducted market analyses, and advised clients on profitable investments. My passion for data analytics connects all these fields — transforming raw data into actionable business insights.</p>
+      <p>I specialize in:</p>
+      <ul>
+        <li>Instrumentation & process engineering</li>
+        <li>Real estate market research & property management</li>
+        <li>Data cleaning, analysis, and dashboard development in Python, SQL, Excel, Power BI, and Tableau</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Professional Experience</h2>
+
+      <div class="experience-item">
+        <span class="experience-title">Instrument Technician</span> — <span class="experience-company">Daewoo Engineering & Construction</span><br/>
+        <ul>
+          <li>Installed, calibrated, and maintained field instruments in oil and gas plants.</li>
+          <li>Developed troubleshooting guides and technical procedures for process control systems.</li>
+          <li>Worked on large-scale construction and commissioning projects, ensuring equipment integrity and performance.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <span class="experience-title">Realtor & Property Manager</span> — <span class="experience-company">Silas Realty NG</span><br/>
+        <ul>
+          <li>Managed residential and commercial properties, including tenant relations and rental income tracking.</li>
+          <li>Conducted market analysis reports to inform investment decisions.</li>
+          <li>Advised landlords and investors on maximizing property profitability through data insights.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <span class="experience-title">Freelance Data Analyst</span><br/>
+        <ul>
+          <li>Built SQL and Python solutions for data cleaning, analysis, and reporting.</li>
+          <li>Developed interactive dashboards in Tableau and Power BI.</li>
+          <li>Executed predictive modeling projects across multiple industries, including engineering, logistics, and real estate.</li>
+        </ul>
+      </div>
     </div>
 
     <div class="section">
       <h2>Featured Projects</h2>
 
-      <!-- Bonny Island Main Project -->
+      <!-- Engineering Project -->
       <div class="project">
-        <h3>Bonny Island Real Estate Price Analysis (Project Completed 15/June/2025)</h3>
+        <h3>🚧 Predictive Maintenance for Oil & Gas Equipment</h3>
+        <p>Analyzed sensor data from oil and gas equipment to detect anomalies and predict potential failures. Built machine learning models in Python to forecast breakdowns, reducing unplanned downtime by 30%. Visualized insights in Power BI dashboards for engineering and maintenance teams.</p>
+        <p>
+          <a href="https://github.com/DataDrivenSilas/engineering-predictive-maintenance" target="_blank">View GitHub Repository</a>
+        </p>
+      </div>
+
+      <!-- Real Estate Main Project -->
+      <div class="project">
+        <h3>Bonny Island Real Estate Price Analysis</h3>
         <div class="project-flex">
           <div class="project-text">
-            <p>Comprehensive analysis of rental price trends, location insights, and forecasts for Bonny Island, Nigeria. This project reveals how new properties, especially 3-bedroom units, have experienced significant rent growth exceeding inflation between 2020 and 2025.</p>
-            <p>It provides insights for investors, landlords, and tenants, highlighting key factors driving rental market shifts, infrastructural impacts, and projections through 2030.</p>
+            <p>Comprehensive analysis of rental price trends, location insights, and forecasts for Bonny Island, Nigeria. Highlights how new properties, especially 3-bedroom units, have experienced significant rent growth exceeding inflation between 2020 and 2025.</p>
+            <p>Provides insights for investors, landlords, and tenants, highlighting market dynamics and projections through 2030.</p>
             <p>
               <a href="Real%20Estate%20Price%20Analysis%20for%20Bonny%20Island.pdf" target="_blank" class="button">
                 View Full PDF Report
@@ -126,61 +190,55 @@
         </div>
       </div>
 
-      <!-- Other Completed Projects -->
-     
-    <div class="section">
-      <h2>🚧 Ongoing Projects</h2>
-
+      <!-- Logistics Project -->
       <div class="project">
-        <h3>🚧 Ongoing: Predictive Maintenance for Oil & Gas Equipment</h3>
-        <p>I’m starting a project focused on predictive maintenance for oil and gas facilities. My goal is to analyze sensor data (temperature, pressure, vibration) to predict equipment failures and reduce downtime.</p>
-        <p><strong>Looking for:</strong> Any anonymized equipment sensor data, maintenance logs, or process data from industrial operations (oil & gas, manufacturing, etc.).</p>
-        <p>If you have data or insights to share, <a href="mailto:Silasude811@gmail.com">please email me</a>!</p>
+        <h3>🚧 Logistics Route Optimization & Cost Reduction</h3>
+        <p>Analyzed GPS and delivery time data to identify inefficiencies in logistics routes. Built Python optimization models reducing delivery times by 25% and lowering transportation costs. Presented results in Power BI dashboards for real-time decision-making.</p>
+        <p>
+          <a href="https://github.com/DataDrivenSilas/logistics-route-optimization" target="_blank">View GitHub Repository</a>
+        </p>
       </div>
 
+      <!-- Customer Feedback Project -->
       <div class="project">
-        <h3>🚧 Ongoing: Logistics Route Optimization & Cost Analysis</h3>
-        <p>I’m launching a project on logistics optimization, focusing on analyzing delivery routes, GPS data, and transportation costs to improve efficiency and reduce expenses.</p>
-        <p><strong>Looking for:</strong> Any delivery data, fleet management records, GPS tracking data, or cost reports from logistics or transportation operations.</p>
-        <p>If you have data or would like to collaborate, <a href="mailto:Silasude811@gmail.com">please get in touch</a>.</p>
+        <h3>🚧 Customer Feedback Analysis</h3>
+        <p>Analyzed survey and review data to discover insights about customer satisfaction, key pain points, and trends. Used text analytics and sentiment analysis in Python to generate actionable insights for businesses seeking to improve their services and products.</p>
+        <p>
+          <a href="https://github.com/DataDrivenSilas/customer-feedback-analysis" target="_blank">View GitHub Repository</a>
+        </p>
       </div>
 
+      <!-- Sales Optimization Project -->
       <div class="project">
-        <h3>🚧 Ongoing: Customer Feedback Analysis</h3>
-        <p>I’m starting a project to analyze customer feedback data (surveys, reviews, social media comments) to discover insights about customer satisfaction, key pain points, and trends.</p>
-        <p><strong>Looking for:</strong> Any datasets with customer feedback, survey results, or online reviews from any industry (hospitality, retail, tech, real estate, etc.).</p>
-        <p>If you’d like to collaborate or have data to share, <a href="mailto:Silasude811@gmail.com">reach out to me!</a></p>
+        <h3>🚧 Sales Pipeline Optimization & Performance Analysis</h3>
+        <p>Launched a project to analyze sales pipeline and team performance data. Aimed to discover bottlenecks, improve conversion rates, and help businesses drive revenue growth with data-driven insights. Built SQL and Python models for lead scoring and performance visualization.</p>
+        <p>
+          <a href="https://github.com/DataDrivenSilas/sales-pipeline-optimization" target="_blank">View GitHub Repository</a>
+        </p>
       </div>
 
-      <div class="project">
-        <h3>🚧 Ongoing: Sales Pipeline Optimization & Performance Analysis</h3>
-        <p>I’m launching a project to analyze sales pipelines and sales team performance data. The goal is to discover bottlenecks, improve conversion rates, and help businesses drive revenue growth with data-driven insights.</p>
-        <p><strong>Looking for:</strong> Any anonymized sales pipeline data, CRM exports, sales performance records, or revenue reports from any industry.</p>
-        <p>If you’d like to collaborate or share data, <a href="mailto:Silasude811@gmail.com">reach out to me!</a></p>
-      </div>
-    </div>
 
     <div class="section">
-      <h2>💼 Hire Me for Your Data Projects</h2>
-      <p>I’m available for freelance and contract data analysis projects in real estate, logistics, engineering, sales optimization, and more. If you have business data you’d like analyzed—or a dashboard, report, or predictive model built—I’d love to work with you.</p>
-      <p><strong>How I Can Help:</strong></p>
+      <h2>💼 Hire Me for Your Data or Technical Projects</h2>
+      <p>I’m available for freelance and contract work across my fields of expertise. Whether you need engineering documentation, property analysis, or business data insights, I’m ready to deliver impactful results. Let’s collaborate on:</p>
       <ul>
-        <li>Data cleaning and transformation (SQL, Python, Excel)</li>
-        <li>Building dashboards in Power BI and Tableau</li>
-        <li>Predictive modeling and machine learning</li>
-        <li>Business reporting and insights generation</li>
+        <li>Instrumentation installation, calibration, and maintenance support</li>
+        <li>Property market analysis and profitability consulting</li>
+        <li>Data cleaning, transformation, and reporting</li>
+        <li>Dashboard development in Power BI and Tableau</li>
+        <li>Predictive modeling and machine learning solutions</li>
+        <li>Business process optimization and automation</li>
       </ul>
-      <p>To discuss your project and rates, please email me at <a href="mailto:Silasude811@gmail.com">Silasude811@gmail.com</a> or connect via <a href="https://www.linkedin.com/in/silas-ude-8297b934a/" target="_blank">LinkedIn</a>.</p>
+      <p>Contact me at <a href="mailto:Silasude811@gmail.com">Silasude811@gmail.com</a> or connect via <a href="https://www.linkedin.com/in/silas-ude-8297b934a/" target="_blank">LinkedIn</a>.</p>
     </div>
 
     <div class="section">
       <h2>Tools & Technologies</h2>
       <ul>
-        <li>SQL (MySQL, SQL Server)</li>
-        <li>Python (Pandas, NumPy, Scikit-Learn, Matplotlib)</li>
-        <li>Excel (Pivot Tables, Power Query)</li>
-        <li>Power BI & Tableau</li>
-        <li>Git & GitHub for version control</li>
+        <li>Engineering: Instrument calibration, troubleshooting, plant maintenance</li>
+        <li>Real Estate: Market analysis, property management, investment consulting</li>
+        <li>Data Analysis: Python, Pandas, NumPy, Scikit-Learn, SQL, Excel, Power BI, Tableau</li>
+        <li>Version Control: Git & GitHub</li>
       </ul>
     </div>
 
